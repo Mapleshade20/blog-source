@@ -1,0 +1,11 @@
+/*字体后缀和浏览器有关，如下所示
+* .TTF或.OTF，适用于Firefox 3.5、Safari、Opera
+* .EOT，适用于Internet Explorer 4.0+
+* .SVG，适用于Chrome、IPhone
+*/
+@font-face {
+    font-family: 'PingFang';
+    src: url('./css/PingFangSC.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
